@@ -15,6 +15,46 @@
   --Darkpurple: hsl(292, 42%, 14%);
 }
 
+.faq-header{
+  display: flex;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.faq-question{
+  padding: 15px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: white;
+  transition: background-color o.3s;
+}
+
+.faq-question:hover{
+  background-color: blueviolet;
+}
+
+.faq-answer{
+  display: none;
+  padding: 15px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.faq.open .faq-answer{
+  display: block;
+}
+
+.faq-question::after{
+  content: '+';
+  float: right;
+  font-size: 24px;
+}
+
+.faq.open .faq-question::after{
+  content: '-';
+}
+
 html {
   min-width: 375px;
   max-width: 1440px;
