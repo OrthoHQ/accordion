@@ -4,13 +4,16 @@ body {
   font-family: Arial, sans-serif;
   background-image: url(assets/images/background-pattern-desktop.svg);
   background-color: rgb(230, 219, 230);
-  background-size: 100% 300px;
+  background-size: cover 300px;
   background-position: center top;
+  margin: 0 ;
+  padding: 0;
   background-repeat: no-repeat;
   color: #333;
   padding: 20px;
   text-align: justify;
   display: flex;
+  flex-wrap: wrap;
 }
 .faq-container {
   padding-top: 300px;
@@ -20,6 +23,7 @@ body {
   border-radius: 10px;
   margin-top: 100px;
   background-color: white;
+  flex-wrap: wrap;
 }
 .faq-header img{
   font-size: small;
