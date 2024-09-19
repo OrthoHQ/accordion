@@ -114,7 +114,6 @@ html {
 body{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
-    background: var(--Darkpurple);
 }
 
 .attribution {
